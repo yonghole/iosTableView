@@ -1,7 +1,7 @@
 # iosTableView
 
 블로그
-![TableView를 이용한 앱 만들기 실습](https://yonghole.github.io/ios/iOSTableView/) 포스팅으로 함께 정리하였습니다.
+[TableView를 이용한 앱 만들기 실습](https://yonghole.github.io/ios/iOSTableView/) 포스팅으로 함께 정리하였습니다.
 
 
 ![_2021-02-06__10 57 41](https://user-images.githubusercontent.com/55180768/107250510-466af800-6a77-11eb-93e4-174c3c50e0fa.png)
