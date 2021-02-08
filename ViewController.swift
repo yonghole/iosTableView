@@ -14,7 +14,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? Listcell {
+            
+            return cell
+        }else{
+            return UITableViewCell()
+        }
     }
     
     
@@ -36,9 +42,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 }
 
 class Listcell: UITableViewCell{
-    @IBOutlet weak var ti: UILabel!
-    @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var location: UILabel!
-    
+
     
 }
